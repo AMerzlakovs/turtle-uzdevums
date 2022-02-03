@@ -4,7 +4,7 @@ import turtle
 car = turtle.Turtle()
  
  
-# Below code for drawing rectangular upper body
+
 car.color('#008000')
 car.fillcolor('#008000')
 car.penup()
@@ -21,7 +21,7 @@ car.forward(50)
 car.end_fill()
   
    
-# Below code for drawing window and roof
+
 car.penup()
 car.goto(100, 50)
 car.pendown()
@@ -38,7 +38,7 @@ car.pendown()
 car.forward(49.50)
   
    
-# Below code for drawing two tyres
+
 car.penup()
 car.goto(100, -10)
 car.pendown()
